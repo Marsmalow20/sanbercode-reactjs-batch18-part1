@@ -1,31 +1,20 @@
 //Soal 1
 console.log('Soal 1');
-let sisi = 4;
-let alas = 6;
-let tinggi = 5;
 let r = 7;
 let phi = 3.14;
 
-// myFunction();
-
-const luasPersegi = () => {
-    let luasp = sisi*sisi;
-    console.log("Luas Persegi = "+sisi+" * " +sisi+" = "+luasp);
-}
-
-const luasSegitiga = () => {
-    let luass = (alas*tinggi)/2;
-    console.log("Luas Segitiga = "+alas+" * "+tinggi+ " / 2 = "+luass);
-}
-
 const luasLingkaran = () => {
-    var luasl = phi*r*r;
-    console.log("Luas Lingkaran = "+phi+" * "+r+" * "+r+" = "+luasl);
+    var luas = phi*r*r;
+    console.log("Luas Lingkaran = "+phi+" * "+r+" * "+r+" = "+luas);
 }
 
-luasPersegi();
-luasSegitiga();
+const kelilingLingkaran = () => {
+    var keliling = phi * (r+r);
+    console.log("Keliling Lingkaran = "+phi+" * ("+r+" + "+r+") = "+keliling);
+}
+
 luasLingkaran();
+kelilingLingkaran();
 
 //Soal 2
 console.log('\nSoal 2');
