@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800'rel='stylesheet' type='text/css'>
+    <title>Quiz 1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Open Sans;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .area1 {
+            padding: 0;
+            padding-left: 50px;
+            padding-top: 30px;
+            background-color: rgb(31, 31, 31);
+            color: #FFF;
+            height: 100vh;
+            flex: 0.5;
+        }
+
+        .area2 {
+            background-color: #FFF;
+            height: 100vh;
+            flex: 3;
+            padding: 50px;
+            padding-top: 60px;
+        }
+
+        .area1 ul li {
+            padding: 10px 30px;
+            color: #616161;
+            list-style: none;
+        }
+
+        ul li::before {
+            content: "\2022";
+            color: #FFF;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+
+        .box {
+            display: flex;
+            justify-content: space-between;
+            width: 65%;
+        }
+
+        p {
+            padding-left: 25px;
+            color: #616161;
+            letter-spacing: 1px;
+        }
+
+        b {
+            color: #000;
+        }
+        
+        h1 {
+            padding-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="area1">
+            <h4>List Buah</h4>
+            <ul>
+                <li>Semangka</li>
+                <li>Jeruk</li>
+                <li>Mangga</li>
+                <li>Anggur</li>
+                <li>Apel</li>
+            </ul>
+        </div>
+        <div class="area2">
+            <h1><b>Strawberry</b></h1>
+            <div class="box">
+                <img src="https://images.pexels.com/photos/46174/strawberries-berries-fruit-freshness-46174.jpeg" alt="Loading..." width="300" height="200">
+                <p><b>Strawberry</b> adalah buah yang sering digunakan sebagai pelengkap dalam hidangan kue atau makanan dan minuman lainnya yang berbahan dasar buah-buahan. Hal ini dikarenakan buah strawberry memiliki warna merah yang sangat pekat, sehingga menjadikan beberapa orang menggunakan stawberry sebagai penghias makanan.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
